@@ -1,0 +1,43 @@
+name: mlsp
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+
+  # Python
+  - python=3.11
+
+  # Scientific computing
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+
+  # Machine learning
+  - scikit-learn
+
+  # Notebook
+  - jupyter
+  - jupyterlab
+  - ipykernel
+
+  # Utilities
+  - tqdm
+  - pyyaml
+
+  # Optimization
+  - cvxpy
+
+  # PyTorch
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # pip packages
+  - pip
+  - pip:
+      - pylops
+      - librosa
